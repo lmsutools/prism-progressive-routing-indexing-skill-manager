@@ -1,0 +1,4 @@
+# Line ceilings for PRISM reference files (enforced by scripts/audit_skills.py)
+ultra-architecture.md 51 2026-10-25 initial PRISM v1.0 release
+sdo-refactoring-guide.md 63 2026-10-25 initial PRISM v1.0 release
+hook-integration.md 36 2026-10-25 initial PRISM v1.0 release
