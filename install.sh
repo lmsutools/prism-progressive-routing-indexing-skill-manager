@@ -5,6 +5,9 @@ set -euo pipefail
 
 PRISM_DIR="$(cd "$(dirname "$0")" && pwd)"
 mkdir -p "$HOME/.agents/vault"
+if [ "$PRISM_DIR" != "$HOME/.agents/prism" ]; then
+  ln -sfn "$PRISM_DIR" "$HOME/.agents/prism"
+fi
 
 linked=0
 for dir in "$HOME/.gemini/config/skills" "$HOME/.claude/skills" "$HOME/.codex/skills"; do
