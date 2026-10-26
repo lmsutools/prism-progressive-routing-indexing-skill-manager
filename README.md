@@ -119,7 +119,7 @@ Measured on a real production developer machine with **55 installed skill direct
 
 ### 1. Clone & Install Across Your Harnesses
 ```bash
-git clone https://github.com/lmsutools/prism.git ~/.agents/prism
+git clone https://github.com/lmsutools/prism-progressive-routing-indexing-skill-manager.git ~/.agents/prism
 cd ~/.agents/prism
 bash install.sh
 ```
